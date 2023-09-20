@@ -1,0 +1,69 @@
+.mainHeading {
+  letter-spacing: 4px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  font-family: "Press Start 2P", cursive;
+}
+
+.gridContainer {
+  display: grid;
+  width: 80%;
+  margin: auto;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.userGridDiv,
+.aiGridDiv {
+  display: grid;
+  gap: 1px;
+  align-content: stretch;
+  grid-template-columns: repeat(10, 30px);
+  grid-template-rows: repeat(10, 30px);
+}
+
+.userGrid {
+  border: 1px solid grey;
+}
+
+.aiGrid {
+  border: 1px solid red;
+}
+
+.userGreyedDiv {
+  background-color: aqua;
+}
+
+.wrongGuessDiv {
+  background-color: red;
+}
+
+.rightGuessDiv {
+  background-color: grey;
+}
+
+.aiWonMessage {
+  color: red;
+}
+
+.humanWonMessage {
+  color: green;
+}
+
+.showWinnerDiv {
+  display: grid;
+  margin-top: 20vh;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.aiWonMessage,
+.humanWonMessage {
+  font-weight: bolder;
+  font-family: "Work Sans", "Roboto", sans-serif;
+}

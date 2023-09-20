@@ -1,0 +1,37 @@
+body {
+  font-family: "Work Sans", "Roboto", sans-serif;
+}
+
+.dialog {
+  display: grid;
+  gap: 2vh;
+  justify-items: center;
+  border: none;
+  padding: 20px 30px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.rotateBtn {
+  justify-self: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.choosingShipsGrid {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(10, 25px);
+  grid-template-rows: repeat(10, 25px);
+}
+
+.eachGrid {
+  border: 1px solid grey;
+}
+
+.hoverDiv {
+  background-color: aqua;
+}
+
+.greyedOut {
+  background-color: grey;
+}
